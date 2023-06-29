@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #ff754e;
+  --nav-background-color: #fff;
+  --dark-mode-background-color: #28282b;
+  --hover-color: #f5f5f6;
+  --nav-boxShadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--nav-background-color);
+  box-shadow: var(--nav-boxShadow);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.profile-action-container .color-mode {
+  width: 32px;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 280px) {
+  .header-container .logo {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+  }
+  .logo-secondary-light {
+    color: var(--dark-mode-background-color);
+  }
+  .logo-secondary-dark {
+    color: var(--nav-background-color);
+  }
+  .header-container .profile-action-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .profile-action-container .color-mode {
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .profile-action-container .color-mode:hover {
+    color: var(--primary-color);
+    background-color: var(--hover-color);
+    border-radius: 50%;
+  }
+}
