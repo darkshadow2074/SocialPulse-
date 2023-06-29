@@ -8,562 +8,601 @@ import { formatDate } from "../utils/authUtils";
 
 export const posts = [
   {
-    _id: uuid(),
-    content:
-      "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others. —Jack Welch",
+    _id: "p1",
+    firstName: "Adarsh",
+    lastName: "Balak",
+    username: "adarshbalak",
+    profileAvatar:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+    content: "I'm proud of my father.",
+
     likes: {
-      likeCount: 0,
-      likedBy: [],
+      likeCount: 4,
       dislikedBy: [],
-    },
-
-    comments: [],
-    postMedia: null,
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-
-  {
-    _id: "fa2a5e1e870c111-a2d",
-    content:
-      "Learn from the mistakes of others. You can't live long enough to make them all yourself 🚀",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [],
-    postMedia: null,
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
-
-  {
-    _id: uuid(),
-    content:
-      "The most important thing to remember is this: to be ready at any moment to give up what you are for what you might become.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [],
-    postMedia: null,
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-14T16:43:34+05:30",
-    updatedAt: "2022-05-14T16:43:34+05:30",
-  },
-
-  {
-    _id: uuid(),
-    content:
-      "Hey all checkout my projects, you will get github link in my profile.",
-    likes: {
-      likeCount: 1,
       likedBy: [
         {
           _id: uuid(),
-          username: "dan_abramov",
-          firstName: "Dan",
-          lastName: "Abramov",
-          likeUpdateDate: "2022-05-15T16:30:17+05:30",
+          firstName: "Anamika",
+          lastName: "",
+          username: "anamika123",
+          profileAvatar:
+            "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        },
+        {
+          _id: uuid(),
+          firstName: "Adarsh",
+          lastName: "Balak",
+          username: "adarshbalak",
+          profileAvatar:
+            "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+        },
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
         },
       ],
-      dislikedBy: [],
     },
+
+    media:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687949692/happy-father-s-day_24908-59789_gfee2v.avif",
+    createdAt: "2023-05-11",
+    updatedAt: "2023-05-11",
     comments: [
       {
-        comment: "Good work",
-        commentDate: "2022-05-12T19:05:28+05:30",
-        firstName: "Lucy",
-        lastName: "Van",
-        username: "lucyvan",
         _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1652872677/28102735662_5773509d11_b_zpjwv0.webp",
-          original_filename: "lucyvan-profile",
-        },
+        firstName: "Mayank",
+        lastName: "Kumar",
+        username: "mayank123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        createdAt: "2023-05-11",
+        updatedAt: "2023-05-11",
+        comment: "me too!",
       },
     ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur-profile",
-    },
-    postMedia: null,
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
   },
+  {
+    _id: "p2",
+    firstName: "Mayank",
+    lastName: "Kumar",
+    username: "mayank123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+    content: "Brown munde ! AP Dhillon is best",
 
-  {
-    _id: uuid(),
-    content:
-      "The difference between having Strict Mode on and off is between “eager bugs” and “on-demand bugs”. Strict Mode immediately forces you to handle the edge cases. This includes bugs you won’t hit in prod today but definitely will as your logic changes. I’ve seen this many times.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736290/dan_o6nk9h.jpg",
-      original_filename: "dan-abramov",
-    },
-    postMedia: null,
-    comments: [],
-    userId: "dan-abramov-userId",
-    firstName: "Dan",
-    lastName: "Abramov",
-    username: "dan_abramov",
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
-
-  {
-    _id: uuid(),
-    content:
-      "what are the best resources you have found for people trying to leave Ukraine? i’ve seen a few docs floating around but not sure which are most up-to-date. share links pls!",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736290/dan_o6nk9h.jpg",
-      original_filename: "dan-abramov",
-    },
-    postMedia: null,
-    comments: [],
-    userId: "dan-abramov-userId",
-    firstName: "Dan",
-    lastName: "Abramov",
-    username: "dan_abramov",
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
-  {
-    _id: uuid(),
-    content: "I’m going to the stars and then past them.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653738815/UFC_229_Preview__Khabib_Nurmagomedov_vs__Conor_McGregor_mj5j5c.jpg",
-      original_filename: "conor-post-image",
-    },
-    comments: [],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-      original_filename: "conor-mcgregor",
-    },
-    userId: "conor-mcgregor-test-userId",
-    firstName: "Conor",
-    lastName: "McGregor",
-    username: "thenotoriousmma",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-
-  {
-    _id: uuid(),
-    content: "Checkout my social media app.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [
-      {
-        comment: "Cool colors, great work.",
-        commentDate: formatDate(),
-        firstName: "Conor",
-        lastName: "McGregor",
-        username: "thenotoriousmma",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-          original_filename: "conor-mcgregor",
-        },
-      },
-      {
-        comment: "Good job",
-        commentDate: formatDate(),
-        firstName: "Lucy",
-        lastName: "Van",
-        username: "lucyvan",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1652872677/28102735662_5773509d11_b_zpjwv0.webp",
-          original_filename: "lucyvan-profile",
-        },
-      },
-    ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur-profile",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653742074/ss_vudit9.jpg",
-      original_filename: "project-showcase",
-    },
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
-  {
-    _id: uuid(),
-    content:
-      "If you're thinking about putting a TypeScript package up to NPM, you should be considering preconstruct. It makes setup EXTREMELY easy and takes many decisions out of your hands.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736290/dan_o6nk9h.jpg",
-      original_filename: "dan-abramov",
-    },
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653740919/350-600x300_reikyg.jpg",
-      original_filename: "test-image",
-    },
-    userId: "dan-abramov-userId",
-    firstName: "Dan",
-    lastName: "Abramov",
-    username: "dan_abramov",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-  {
-    _id: uuid(),
-    content:
-      "Experience is not the amount of time you have held a position but the amount of time you have put into your craft ✨",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-
-    comments: [
-      {
-        comment: "Well said.",
-        commentDate: "2022-05-10T19:05:28+05:30",
-        firstName: "Conor",
-        lastName: "McGregor",
-        username: "thenotoriousmma",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-          original_filename: "conor-mcgregor",
-        },
-      },
-    ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    postMedia: null,
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-  {
-    _id: uuid(),
-    content: "This beauty ✨",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-
-    comments: [
-      {
-        comment: "Well said.",
-        commentDate: "2022-05-15T19:05:28+05:30",
-        firstName: "Conor",
-        lastName: "McGregor",
-        username: "thenotoriousmma",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-          original_filename: "conor-mcgregor",
-        },
-      },
-    ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1652874627/788-536x354_btpwul.jpg",
-      original_filename: "scenery",
-    },
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-
-  {
-    _id: uuid(),
-    content:
-      "Leadership is lifting a person's vision to high sights, the raising of a person's performance to a higher standard, the building of a personality beyond its normal limitations. —Peter Drucker",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [
-      {
-        comment: "Nice quote.",
-        commentDate: "2022-05-28T19:05:28+05:30",
-        firstName: "Dan",
-        lastName: "Abramov",
-        username: "dan_abramov",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736290/dan_o6nk9h.jpg",
-          original_filename: "dan-abramov",
-        },
-      },
-      {
-        comment: "Good one.",
-        commentDate: "2022-05-28T19:05:28+05:30",
-        firstName: "Conor",
-        lastName: "McGregor",
-        username: "thenotoriousmma",
-        _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-          original_filename: "conor-mcgregor",
-        },
-      },
-    ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur-profile",
-    },
-    postMedia: null,
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-
-  {
-    _id: uuid(),
-    content: `This man has been inspiring me for a couple of decades now.
-      Selflessness, dealing with failure, handling success, staying calm in adversity, getting the best out of resources! 🚀`,
     likes: {
       likeCount: 2,
+      dislikedBy: [],
       likedBy: [
         {
           _id: uuid(),
-          firstName: "Conor",
-          lastName: "McGregor",
-          username: "thenotoriousmma",
-          likeUpdateDate: "2022-05-15T16:30:17+05:30",
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
         },
         {
           _id: uuid(),
-          firstName: "Dan",
-          lastName: "Abramov",
-          username: "dan_abramov",
-          likeUpdateDate: "2022-05-15T16:30:17+05:30",
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
         },
       ],
-      dislikedBy: [],
     },
+
+    media: "",
+    createdAt: "2023-06-12",
+    updatedAt: "2023-06-12",
     comments: [
       {
-        comment: "This is awesome.",
-        commentDate: "2022-05-28T19:05:28+05:30",
-        firstName: "Dan",
-        lastName: "Abramov",
-        username: "dan_abramov",
         _id: uuid(),
-        profileImage: {
-          url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736290/dan_o6nk9h.jpg",
-          original_filename: "dan-abramov",
-        },
+        firstName: "Yuvraj",
+        lastName: "Kumar",
+        username: "yuvraj123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        createdAt: "2023-06-09",
+        updatedAt: "2023-06-09",
+        comment: "Yo!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-06-09",
+        updatedAt: "2023-06-09",
+        comment: "nice nice!",
       },
     ],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1652616473/ss_jjlh2c.jpg",
-      original_filename: "dhoni-book",
-    },
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
   },
   {
-    _id: uuid(),
-    content:
-      "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves. —Lao Tzu",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [],
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1652872677/28102735662_5773509d11_b_zpjwv0.webp",
-      original_filename: "lucyvan-profile",
-    },
-    postMedia: null,
-    userId: "lucy-van-userId",
-    firstName: "Lucy",
-    lastName: "Van",
-    username: "lucyvan",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-  {
-    _id: uuid(),
-    content: "The champ.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-      original_filename: "conor-mcgregor",
-    },
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653741427/HD_wallpaper__Sports_Mixed_Martial_Arts_Conor_Mcgregor_Mixed_Martial_Artist_btgery.jpg",
-      original_filename: "conor-post-image",
-    },
-    comments: [],
-    userId: "conor-mcgregor-test-userId",
-    firstName: "Conor",
-    lastName: "McGregor",
-    username: "thenotoriousmma",
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
+    _id: "p3",
+    firstName: "Adarsh",
+    lastName: "Balak",
+    username: "adarshbalak",
+    profileAvatar:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+    content: `Be courageous. Challenge orthodoxy. Stand up for what you believe in. Make sure you have stories to cherish lifetime.`,
+    // link: "https://yo-shop-neogcamp.netlify.app/",
 
-  {
-    _id: uuid(),
-    content:
-      "Life is fragile and temporary. The faces of today quickly become the faces of the past. Sorrow, pain, and anger... it all fades.",
     likes: {
-      likeCount: 0,
-      likedBy: [],
+      likeCount: 2,
       dislikedBy: [],
-    },
-    comments: [],
-    postMedia: null,
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653735959/images_fufwdx.jpg",
-      original_filename: "conor-mcgregor",
-    },
-    userId: "conor-mcgregor-test-userId",
-    firstName: "Conor",
-    lastName: "McGregor",
-    username: "thenotoriousmma",
-    createdAt: formatDate(),
-    updatedAt: formatDate(),
-  },
-
-  {
-    _id: uuid(),
-    content:
-      "A pessimist is one who makes difficulties of his opportunities and an optimist is one who makes opportunities of his difficulties.",
-    likes: {
-      likeCount: 0,
-      likedBy: [],
-      dislikedBy: [],
-    },
-    comments: [],
-    postMedia: null,
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur",
-    },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
-  },
-  {
-    _id: uuid(),
-    content:
-      "A genuine leader is not a searcher for consensus, but a molder of consensus.",
-    likes: {
-      likeCount: 1,
       likedBy: [
         {
           _id: uuid(),
-          firstName: "Dan",
-          lastName: "Abramov",
-          username: "dan_abramov",
-          likeUpdateDate: "2022-05-15T16:30:17+05:30",
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
         },
       ],
+    },
+
+    media: "",
+    createdAt: "2023-06-25",
+    updatedAt: "2023-06-25",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Yuvraj",
+        lastName: "Kumar",
+        username: "yuvraj123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: formatDate(),
+        comment: "Yo!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: "2023-02-19",
+        comment: "nice nice!",
+      },
+    ],
+  },
+
+  {
+    _id: "p4",
+    firstName: "Yuvraj",
+    lastName: "Kumar",
+    username: "yuvraj123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+    content: "Why this kolaveri-Di ?",
+    media: "",
+    createdAt: "2023-06-21",
+    updatedAt: "2023-06-21",
+
+    likes: {
+      likeCount: 2,
       dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Anamika",
+          lastName: "",
+          username: "anamika123",
+          profileAvatar:
+            "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        },
+      ],
     },
-    comments: [],
-    postMedia: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653743304/648-600x400_bg9yl4.jpg",
-      original_filename: "rohan-post-test-image",
+
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Anamika",
+        lastName: "",
+        username: "anamika123",
+        profileAvatar:
+          "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        createdAt: "2023-04-21",
+        updatedAt: formatDate(),
+        comment: "Haha!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-04-21",
+        updatedAt: "2023-04-21",
+        comment: "nice nice!",
+      },
+    ],
+  },
+  {
+    _id: "p5",
+    firstName: "Yuvraj",
+    lastName: "Kumar",
+    username: "yuvraj123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+    content: "Visited kedarnath! Jai shiv ji !!",
+    media:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687578017/91370194_gkqi4s.webp",
+    createdAt: "2023-04-21",
+    updatedAt: "2023-04-21",
+
+    likes: {
+      likeCount: 2,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Anamika",
+          lastName: "",
+          username: "anamika123",
+          profileAvatar:
+            "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        },
+        {
+          _id: uuid(),
+          firstName: "Adarsh",
+          lastName: "Balak",
+          username: "adarshbalak",
+          profileAvatar:
+            "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+        },
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        },
+      ],
     },
-    profileImage: {
-      url: "https://res.cloudinary.com/dexubgbx0/image/upload/v1653736054/angelist-profile_rmiupp.jpg",
-      original_filename: "rohanmathur-profile",
+
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Anamika",
+        lastName: "",
+        username: "anamika123",
+        profileAvatar:
+          "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        createdAt: "2023-04-21",
+        updatedAt: formatDate(),
+        comment: "Jai Shiv!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-04-21",
+        updatedAt: "2023-04-21",
+        comment: "nice nice!",
+      },
+    ],
+  },
+  {
+    _id: "p6",
+    firstName: "Anamika",
+    lastName: "",
+    username: "anamika123",
+    profileAvatar:
+      "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+    content: "Started learning Java",
+
+    likes: {
+      likeCount: 2,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        },
+      ],
     },
-    userId: "rohan-mathur-test-userId",
-    firstName: "Rohan",
-    lastName: "Mathur",
-    username: "rohanmathur",
-    createdAt: "2022-05-15T16:43:34+05:30",
-    updatedAt: "2022-05-15T16:43:34+05:30",
+
+    media: "",
+    createdAt: "2023-02-19",
+    updatedAt: "2023-02-19",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Yuvraj",
+        lastName: "Kumar",
+        username: "yuvraj123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: formatDate(),
+        comment: "Yo!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: formatDate(),
+        comment: "nice nice!",
+      },
+    ],
+  },
+  {
+    _id: "p7",
+    firstName: "Harsh",
+    lastName: "Vardhan",
+    username: "harsh123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+    content: "I'm going to hit gym from tom.",
+
+    likes: {
+      likeCount: 2,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Mayank",
+          lastName: "Kumar",
+          username: "mayank123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        },
+      ],
+    },
+
+    media: "",
+    createdAt: "2023-06-04",
+    updatedAt: "2023-06-04",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Mayank",
+        lastName: "Kumar",
+        username: "mayank123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        createdAt: "2023-06-04",
+        updatedAt: formatDate(),
+        comment: "Waao !",
+      },
+    ],
+  },
+  {
+    _id: "p8",
+    firstName: "Harsh",
+    lastName: "Vardhan",
+    username: "harsh123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+    content: "Lifting new challenges ! ",
+
+    likes: {
+      likeCount: 2,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Mayank",
+          lastName: "Kumar",
+          username: "mayank123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        },
+      ],
+    },
+
+    media:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687949883/gym_management-min_z042yf.jpg",
+    createdAt: "2023-06-05",
+    updatedAt: "2023-06-05",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Mayank",
+        lastName: "Kumar",
+        username: "mayank123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        createdAt: "2023-06-05",
+        updatedAt: formatDate(),
+        comment: "Very nice !",
+      },
+    ],
+  },
+  {
+    _id: "p9",
+    firstName: "Anamika",
+    lastName: "",
+    username: "anamika123",
+    profileAvatar:
+      "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+    content: "CSK champions for the 5th time!",
+
+    likes: {
+      likeCount: 5,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Anamika",
+          lastName: "",
+          username: "anamika123",
+          profileAvatar:
+            "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        },
+        {
+          _id: uuid(),
+          firstName: "Adarsh",
+          lastName: "Balak",
+          username: "adarshbalak",
+          profileAvatar:
+            "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+        },
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Harsh",
+          lastName: "Vardhan",
+          username: "harsh123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        },
+        {
+          _id: uuid(),
+          firstName: "Mayank",
+          lastName: "Kumar",
+          username: "mayank123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+        },
+      ],
+    },
+
+    media:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687949942/ipl-2023-winner-chennai-super-kings-csk_nkwc6o.jpg",
+    createdAt: "2023-06-17",
+    updatedAt: "2023-06-17",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Yuvraj",
+        lastName: "Kumar",
+        username: "yuvraj123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: formatDate(),
+        comment: "Yo!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-02-19",
+        updatedAt: formatDate(),
+        comment: "nice nice!",
+      },
+    ],
+  },
+  {
+    _id: "p10",
+    firstName: "Mayank",
+    lastName: "Kumar",
+    username: "mayank123",
+    profileAvatar: "https://avatars.githubusercontent.com/u/36763315?v=4",
+    content: "New sensation",
+
+    likes: {
+      likeCount: 3,
+      dislikedBy: [],
+      likedBy: [
+        {
+          _id: uuid(),
+          firstName: "Anamika",
+          lastName: "",
+          username: "anamika123",
+          profileAvatar:
+            "https://media.licdn.com/dms/image/D5603AQH4CjoVxLewyA/profile-displayphoto-shrink_400_400/0/1686765403158?e=1692230400&v=beta&t=TD2bZvpcrwyQ_xRFJWcKGrdedAU3zbyss3ygheSSveA",
+        },
+        {
+          _id: uuid(),
+          firstName: "Adarsh",
+          lastName: "Balak",
+          username: "adarshbalak",
+          profileAvatar:
+            "https://res.cloudinary.com/yuvraj1905/image/upload/v1687716248/844-8444619_student-png-male-student-cartoon-png_ibwnbv.png",
+        },
+        {
+          _id: uuid(),
+          firstName: "Yuvraj",
+          lastName: "Kumar",
+          username: "yuvraj123",
+          profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        },
+      ],
+    },
+
+    media:
+      "https://res.cloudinary.com/yuvraj1905/image/upload/v1687950009/ap-dhillon-stock-1-min_bzihym.jpg",
+    createdAt: "2023-06-09",
+    updatedAt: "2023-06-09",
+    comments: [
+      {
+        _id: uuid(),
+        firstName: "Yuvraj",
+        lastName: "Kumar",
+        username: "yuvraj123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/94983216?v=4",
+        createdAt: "2023-06-12",
+        updatedAt: formatDate(),
+        comment: "Yo!",
+      },
+      {
+        _id: uuid(),
+        firstName: "Harsh",
+        lastName: "Vardhan",
+        username: "harsh123",
+        profileAvatar: "https://avatars.githubusercontent.com/u/67819701?v=4",
+        createdAt: "2023-06-12",
+        updatedAt: formatDate(),
+        comment: "nice nice!",
+      },
+    ],
   },
 ];

@@ -34,16 +34,16 @@ export const signupHandler = function (schema, request) {
       _id,
       createdAt: formatDate(),
       updatedAt: formatDate(),
-      bio: "",
-      websiteUrl: "",
-      profileImage: null,
       username,
       password,
+      ...rest,
       followers: [],
       following: [],
       bookmarks: [],
-      ...rest,
-      profileBackgroundImage: null,
+      profileAvatar:
+        "https://img.myloview.com/stickers/default-avatar-profile-icon-vector-social-media-user-photo-400-205577532.jpg",
+      bio: "Hey! I'm Yolo user",
+      website: "https://github.com/yuvraj1905", // deployement ke baad actual website ka  link
     };
     const createdUser = schema.users.create(newUser);
     const encodedToken = sign(
